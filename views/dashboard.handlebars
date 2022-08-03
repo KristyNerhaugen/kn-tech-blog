@@ -8,7 +8,7 @@
         </div>
         <div>
             <label for="post-title">Content of Post</label>
-            <input type="text" id="post-content" name="post-content" />
+            <input type="text" id="postContent" name="postContent" />
         </div>
         <button type="submit" class="btn">Create Post</button>
     </form>
@@ -19,10 +19,10 @@
 <section>
     <h2>Your Tech Blog Posts</h2>
     <ol>
-        {{#each post as |post|}}
+        {{#each posts as |post|}}
         <li>
             {{!-- connects to post-info partial --}}
-            {{> post-info post}}
+            {{> post-info post }}
             <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Your Post</a>
         </li>
         {{/each}}
