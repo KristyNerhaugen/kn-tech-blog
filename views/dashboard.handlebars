@@ -13,3 +13,22 @@
         <button type="submit" class="btn">Create Post</button>
     </form>
 </section>
+
+{{!-- returns users posts only if they have created posts --}}
+{{#if posts.length}}
+<section>
+    <h2>Your Tech Blog Posts</h2>
+    <ol>
+        {{#each post as |post|}}
+        <li>
+            {{!-- connects to post-info partial --}}
+            {{> post-info post}}
+            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Your Post</a>
+        </li>
+        {{/each}}
+    </ol>
+</section>
+{{/if}}
+
+{{!-- connect to add-post.js --}}
+<script src="/javascript/add-post.js"></script>
