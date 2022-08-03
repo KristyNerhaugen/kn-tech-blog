@@ -79,6 +79,7 @@ router.get("posts/:id", (req, res) => {
 
 // login route--if not logged in, prompt user to login
 router.get("/login", (req, res) => {
+  //accessing session information to verify login by checking for a session
   if (req.session.loggedIn) {
     res.redirect("/");
     return;

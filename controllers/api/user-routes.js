@@ -56,6 +56,7 @@ router.post("/", (req, res) => {
     password: req.body.password,
   })
     .then((dbUserData) => {
+      //accessing session information
       req.session.save(() => {
         req.session.user_id = dbUserData.id;
         req.session.username = dbUserData.username;
@@ -87,7 +88,7 @@ router.post("/login", (req, res) => {
       res.status(400).json({ message: "Password is incorrect." });
       return;
     }
-
+    //accessing session information
     req.session.save(() => {
       req.session.user_id = dbUserData.id;
       req.session.username = dbUserData.username;
