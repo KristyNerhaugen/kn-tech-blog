@@ -23,8 +23,8 @@ router.get("/", (req, res) => {
     ],
   })
     .then((dbPostData) => {
-      const post = dbPostData.map((post) => post.get({ plain: true }));
-
+      const posts = dbPostData.map((post) => post.get({ plain: true }));
+      // must be loggedin for posts to render
       res.render("homepage", {
         posts,
         loggedIn: req.session.loggedIn,
@@ -68,6 +68,7 @@ router.get("posts/:id", (req, res) => {
 
       res.render("single-post", {
         post,
+        // only rendering if session confirms user is logged in
         loggedIn: req.session.loggedIn,
       });
     })
