@@ -15,7 +15,8 @@
                 <a href="/">KN Tech Blog</a>
             </h1>
             <nav>
-                {{!-- if user is logged in, take them to dashboard, otherwise prompt them to login at login page --}}
+                {{!-- if user is logged in, allow them to go to dashboard or logout, otherwise prompt them to login at
+                login page --}}
                 {{#if loggedIn}}
                 <a href="/dashboard">Dashboard</a>
                 <button id="logout" class="btn-no-style">Logout</button>
