@@ -1,0 +1,45 @@
+# Challenge Fourteen: KN Tech Blog ![MIT badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Description
+
+### For this challenge, I created the back end and front end of a tech blog website. KN Tech Blog is a CMS-style blog that allows users to publish articles, blog posts, thoughts and opinions.
+
+## Table of Contents
+
+### [Installation](#installation)
+
+### [Usage](#usage)
+
+### [Credits](#credits)
+
+### [License](#license)
+
+## Installation
+
+### Access the depoloyed site here: [KN Tech Blog](https://kn-tech-blog.herokuapp.com/). To see the code, access it via GitHub: [Github Repository](https://github.com/KristyNerhaugen/kn-tech-blog).
+
+## Usage
+
+### This application can be used to publish articles, blog posts, thoughts, and opinions. It can also be used to see other's posts. Users must create an account to create connect.
+
+### These pictures show the application:
+
+#### ![Homepage to View Posts and Create a Post ](/public/assets/images/screenshotone.png)
+
+#### ![Edit Post](/public/assets/images/screenshottwo.png)
+
+## Credits
+
+### I used what I learned in the BootCamp Spot modules and BootCamp classes to create this application. I especially used what I learned in Module 13 and Module 14 and the code that was given through these modules as a guide for this challenge. Much of the code provided to use in these modules directly related to the code I wrote for this application.
+
+## License
+
+### The MIT License
+
+#### Copyright 2022 Kristy Nerhaugen
+
+#### Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+#### The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+#### THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
