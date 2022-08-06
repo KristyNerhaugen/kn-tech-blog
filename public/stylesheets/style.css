@@ -2,4 +2,74 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: black;
+    background-color: var(--lightGrey);
+}
+
+:root {
+    --darkBlue: #00008B;
+    --lightBlue: #B0C4DE;
+    --lightGrey: #D3D3D3;
+}
+
+a {
+    color: darkblue;
+}
+header {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font-size: 16px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* button styling modified from https://www.w3schools.com/css/css3_buttons.asp */
+.btn-no-style {
+    background-color: var(--lightBlue);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button {
+    background-color: var(--lightBlue);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.btn {
+    background-color: var(--lightBlue);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

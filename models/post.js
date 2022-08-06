@@ -20,8 +20,15 @@ Post.init(
     postContent: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [1],
+      // validate: {
+      //   len: [1],
+      // },
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "user",
+        key: "id",
       },
     },
   },

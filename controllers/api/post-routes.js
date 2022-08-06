@@ -55,7 +55,7 @@ router.get("/:id", (req, res) => {
   })
     .then((dbPostData) => {
       if (!dbPostData) {
-        res.status(404).json({ message: "No user found." });
+        res.status(404).json({ message: "No post found." });
         return;
       }
       res.json(dbPostData);
@@ -86,6 +86,7 @@ router.put("/:id", withAuth, (req, res) => {
   Post.update(
     {
       title: req.body.title,
+      postContent: req.body.postContent,
     },
     {
       where: {

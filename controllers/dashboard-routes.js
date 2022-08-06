@@ -55,7 +55,7 @@ router.get("/edit/:id", withAuth, (req, res) => {
     ],
   })
     .then((dbPostData) => {
-      if (!dbPostData) {
+      if (dbPostData) {
         const post = dbPostData.get({ plain: true });
 
         res.render("edit-post", {

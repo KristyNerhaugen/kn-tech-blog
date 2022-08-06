@@ -6,7 +6,7 @@ async function commentFormHandler(event) {
     .value.trim();
 
   const post_id = window.location.toString().split("/")[
-    window.locationtoString().split("/").length - 1
+    window.location.toString().split("/").length - 1
   ];
 
   if (commentText) {
