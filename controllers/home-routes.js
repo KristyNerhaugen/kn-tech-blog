@@ -37,12 +37,12 @@ router.get("/", (req, res) => {
 });
 
 // get one (by id) route
-router.get("post/:id", (req, res) => {
+router.get("/post/:id", (req, res) => {
   Post.findOne({
     where: {
       id: req.params.id,
     },
-    attributes: ["id", "title", "postContent", "createdAt"],
+    attributes: ["id", "title", "post_Content", "createdAt"],
     include: [
       {
         model: Comment,
@@ -68,7 +68,7 @@ router.get("post/:id", (req, res) => {
 
       res.render("single-post", {
         post,
-        // only rendering if session confirms user is logged in
+        // only render if session confirms user is logged in
         loggedIn: req.session.loggedIn,
       });
     })
