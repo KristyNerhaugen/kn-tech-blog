@@ -2,7 +2,7 @@
 
 ## Description
 
-### For this challenge, I created the back end and front end of a tech blog website. KN Tech Blog is a CMS-style blog that allows users to publish articles, blog posts, thoughts and opinions.
+### For this challenge, I created the back end and front end of a tech blog website. KN Tech Blog is a CMS-style blog that allows users to publish articles, blog posts, thoughts and opinions. Users can create an account with a username, email, and password.
 
 ## Table of Contents
 
