@@ -2,10 +2,12 @@
     <div class="title">
         <h4> <a href="/post/{{id}}">{{title}}</a> </h4>
         <p>{{postContent}}</p>
+        <p>Created by {{user.username}} on {{format_date createdAt}}</p>
+        <p>{{comments.length}} {{format_plural "comment" comments.length}}</p>
     </div>
-    <div class="comment">
+    {{!-- <div class="comment">
         <p>Created by {{user.username}} on {{format_date createdAt}}</p>
         |
         <a href="/posts/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
-    </div>
+    </div> --}}
 </article>
