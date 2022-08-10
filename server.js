@@ -10,7 +10,7 @@ const sequelize = require("./config/connection");
 // using express-session and sequelize store
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
-// I used this site to figure out how to time out a user session after one minute:
+// I used this site to figure out how to time out a user session after three minutes:
 // https://stackoverflow.com/questions/23545838/session-timeout-after-inactivity-in-express-session-in-express-server
 const sess = {
   secret: "Super secret secret",
