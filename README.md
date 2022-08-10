@@ -16,7 +16,7 @@
 
 ## Installation
 
-### Access the depoloyed site here: [KN Tech Blog](https://kn-tech-blog.herokuapp.com/). To see the code, access it via GitHub: [Github Repository](https://github.com/KristyNerhaugen/kn-tech-blog).
+### Access the deployed site here: [KN Tech Blog](https://kn-tech-blog.herokuapp.com/). To see the code, access it via GitHub: [Github Repository](https://github.com/KristyNerhaugen/kn-tech-blog).
 
 ## Usage
 
