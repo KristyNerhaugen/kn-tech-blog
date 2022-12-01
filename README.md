@@ -24,9 +24,11 @@
 
 ### These pictures show the application:
 
-#### ![Homepage to View Posts and Create a Post ](/public/assets/images/screenshotone.png)
+#### ![Homepage to View Posts ](/public/assets/images/screenshot1.png)
 
-#### ![Edit Post](/public/assets/images/screenshottwo.png)
+#### ![Login and Create an Account page](/public/assets/images/screenshot2.png)
+
+#### ![User Dashboard](/public/assets/images/screenshot3.png)
 
 ## Credits
 
