@@ -1,11 +1,12 @@
 /* Styling is copied from from BootCamp module project Deep Thoughts with some small changes. */
+/* matching colors scheme for primary, secondary, tertiary, light, and dark from coolors.co */
 :root {
-    --primary: #497573;
-    --secondary: #99f7f2;
-    --tertiary: #b2c2c1;
-    --quatrinary: #cadbda;
-    --light: #e1f5f4;
-    --dark: #6c7575;
+    --primary: #1B2021;;
+    --secondary: #A6A867;
+    --tertiary: #E3DC95;
+    --quatrinary: #e1f5f4;
+    --light: #E3DCC2;
+    --dark: #51513D;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
     --spacing-one: calc(1rem * 0.25);
