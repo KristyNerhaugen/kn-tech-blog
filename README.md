@@ -30,7 +30,7 @@
 
 ## Credits
 
-### I used what I learned in the BootCamp Spot modules and BootCamp classes to create this application. I especially used what I learned in Module 13 and Module 14 and the code that was given through these modules as a guide for this challenge. Much of the code provided to use in these modules directly related to the code I wrote for this application.
+### I used what I learned in the BootCamp Spot modules and BootCamp classes to create this application. I especially used what I learned in Module 13 and Module 14 and the code that was given through these modules as a guide for this challenge. Much of the code provided to use in these modules directly related to the code I wrote for this application. Styling for this site was taken from the Module 13 and Module 14 project, Deep Thoughts. The CSS code was only slightly modified from what was provided.
 
 ## License
 
